@@ -10,15 +10,25 @@ function App() {
     JSON.parse(localStorage.getItem("Notes-app")) ||
     [
       {
-        title:"To use Note",
-        text: "Click on the Title to add you note title and move to the text area to add anyting",
-        date: Date.now() 
-      },
-      {
         title:"To add Note",
         text: "Click on the Add button to add a new note",
         date: Date.now() 
-      }
+      },
+      {
+        title:"To delete Note",
+        text: "Click on the delete button to delete a note",
+        date: Date.now() 
+      },
+      {
+        title:"Max Length",
+        text: "This note has a maximum character limit of 572, and a progress bar visually indicates its usage.",
+        date: Date.now() 
+      },
+      {
+        title:"To use Note",
+        text: "Click on the title to add your note title, and move to the text area to enter any content. Repeat the same process as needed.",
+        date: Date.now() 
+      },
     ]);
   
 

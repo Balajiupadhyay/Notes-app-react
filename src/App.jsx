@@ -11,12 +11,12 @@ function App() {
     [
       {
         title:"To add Note",
-        text: "Click on the Add button to add a new note",
+        text: "Click on the Add button to add a new note.",
         date: Date.now() 
       },
       {
         title:"To delete Note",
-        text: "Click on the delete button to delete a note",
+        text: "Click on the delete button to delete a note.",
         date: Date.now() 
       },
       {
